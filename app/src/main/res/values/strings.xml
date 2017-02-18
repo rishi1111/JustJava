@@ -2,6 +2,8 @@
     <string name="app_name">Just Java</string>
     <string name="order">Order</string>
     <string name="quantity">Quantity</string>
+    <string name="topping">Toppings</string>
     <string name="ordersummary">Order Summary</string>
 
+    <string name="whippedcream">Whipped Cream</string>
 </resources>
