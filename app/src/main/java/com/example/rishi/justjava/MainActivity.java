@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         hasWhippedCream = WhippedCream.isChecked();
         hasChocolate = chocolateCheckBox.isChecked();
 
-        int price = calculatePrice(quantity, hasWhippedCream, hasChocolate);
+        int price = calculatePrice(hasWhippedCream, hasChocolate);
 
         String summary = createOrderSummary(price, hasWhippedCream, hasChocolate, name);
         displayMessage(summary);
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private int calculatePrice(int quantity, boolean hasWhipped, boolean hasChocolate) {
+    private int calculatePrice(boolean hasWhipped, boolean hasChocolate) {
 
 
         int price = 5;
